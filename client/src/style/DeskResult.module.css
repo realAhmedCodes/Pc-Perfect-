@@ -1,0 +1,426 @@
+
+.grid_container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #ffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-left: 38%;
+  border-radius: 10px;
+  width: 280px; 
+  height: 60%;
+}
+.select_container {
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 80%;
+  width: 250px;
+}
+.dropdown_container {
+  width: 100%; /* Full width for the dropdown */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr; /* Divide the container into two columns */
+  gap: 20px; /* Add some gap between the columns */
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+ 
+}
+
+
+
+.showCustoms {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  position: absolute;
+  height: 40%;
+ height: 85%;
+  right: 0;
+margin-top: 70px;
+  background-color:#ffff;
+  z-index: 1;
+}
+.top_heading {
+  margin-top: 0.6rem; /* Adjust as needed */
+  margin-left: 0.5rem; /* Adjust as needed */
+  display: flex; /* Added */
+  align-items: center; /* Added */
+  order: 2; /* Change the order */
+}
+
+
+.arrow_png img {
+  width: 23px; /* Adjust as needed */
+  height: 23px;
+  border-radius: 5rem;
+  background-color: #ffff;
+  
+
+}
+
+.arrow_png {
+  display: flex;
+  align-items: center;
+ background-color: rgb(12, 12, 54);
+  color: #fff;
+  font-size: 12px;
+  padding: 5px;
+  height: 24px;
+  
+}
+
+
+
+.dropdown {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.customButton {
+  padding: 5px;
+  width: 40%;
+  height: 52px;
+  margin-top: 10px;
+  background-color: rgb(12, 12, 54);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.customButton:hover {
+  background-color: #072543;
+}
+
+.png_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 90%;
+  height: 80px;
+ text-align: center;
+  margin-top: 0px; 
+  background-color: #ffff;
+  border-top: 1px solid black; 
+  border-bottom: 1px solid black;
+ 
+}
+
+.component_png {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 0.5rem;
+  background-color: #ffff;
+  margin-top: 20px;
+  
+}
+
+.component_h2{
+  margin-top: 6px;
+  font-size: 12px;
+ 
+}
+
+.custom_card{
+  width: 28%;
+   display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: flex-end;
+  position: absolute;
+  height: 85%;
+  right: 0;
+margin-top: 70px;
+  background-color:#ffff;
+  z-index: 1;
+}
+
+
+
+
+.top_div {
+  display: flex;
+  align-items: center; /* Center vertically */
+  background-color: rgb(12, 12, 54);
+  color: #fff;
+  padding: 10px;
+  width: 96%;
+  height: 25px;
+}
+
+.right_arrow {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px; /* Adjust spacing */
+  border-radius: 50%;
+  background-color: #ffff;
+}
+
+.top_div h2 {
+  font-size: 20px;
+  margin: 0; /* Reset margins */
+  flex: 1; /* Allow the h2 to expand and take available space */
+  margin-left: 30%;
+}
+/*
+.list_btn {
+  background-color: #ffff;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.list_btn:hover {
+  background-color: #0056b3;
+}*/
+
+.custom_text {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Align items at each end of the container */
+  background-color: #fff;
+  color: #fff;
+  padding: 10px;
+  width: 96%;
+}
+
+.custom_text h2 {
+  font-size: 17px;
+  margin: 0; /* Reset margins */
+  margin-right: 90px; /* Add a right margin for the gap */
+  color: black;
+}
+.cus2_h2{
+  margin-right: 200px;
+}
+
+
+/* CPU Component */
+/*
+.cpu_div {
+  display: flex;
+  align-items: center;
+  background-color: #ffff;
+  color: #fff;
+  padding: 10px;
+  width: 96%;
+  height: 74px; 
+   border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.cpu_png_div {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 0.6rem;
+  background-color: #ffff;
+  margin-left: 20px;
+}
+
+.cpu_png {
+  width: 100%;
+  height: 100%;
+}
+
+.cpu_h2 {
+  margin-top: 2px; 
+  font-size: 15px;
+  font-weight: bolder;
+  color: #000000;
+  text-align: center; 
+}
+
+.cpu_component_text {
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.cpu_txt1 {
+  margin-left: 100px;
+  font-size: 17px;
+}
+
+.cpu_txt2 {
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+
+/* Motherboard Component */
+.cpu_div,
+.mobo_div,
+.gpu_div,
+.ram_div,
+.case_div,
+.storage_div,
+.psu_div {
+  display: flex;
+  align-items: center;
+  background-color: #ffff;
+  color: #fff;
+  padding: 10px;
+  width: 96%;
+  height: 55px; /* Increase height to accommodate icon and text */
+   border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.cpu_png_div,
+.mobo_png_div,
+.gpu_png_div,
+.ram_png_div,
+.case_png_div,
+.storage_png_div,
+.psu_png_div {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+  width: 40px;
+  height: 40px;
+  border-radius: 0.6rem;
+  background-color: #ffff;
+  margin-left: 20px;
+}
+.cpu_png,
+.mobo_png,
+.gpu_png,
+.ram_png,
+.case_png,
+.storage_png,
+.psu_png {
+  width: 80%;
+  height: 80%;
+}
+.cpu_h2,
+.mobo_h2,
+.gpu_h2,
+.ram_h2,
+.case_h2,
+.storage_h2,
+.psu_h2 {
+  margin-top: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center; /* Center text */
+}
+
+.cpu_component_text,
+.mobo_component_text,
+.gpu_component_text,
+.ram_component_text,
+.case_component_text,
+.storage_component_text,
+.psu_component_text {
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.cpu_txt1,
+.mobo_txt1,
+.gpu_txt1,
+.ram_txt1,
+.case_txt1,
+.storage_txt1,
+.psu_txt1 {
+  margin-left: 100px;
+  font-size: 15px;
+}
+.cpu_txt2,
+.mobo_txt2,
+.gpu_txt2,
+.ram_txt2,
+.case_txt2,
+.storage_txt2,
+.psu_txt2 {
+  margin-left: 10px;
+  font-size: 15px;
+}
+.mobo_h2{
+  margin-left: 20px;
+}
+
+
+
+.gpu_png_div {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+  width: 55px;
+  height: 55px;
+  border-radius: 0.6rem;
+  background-color: #ffff;
+  margin-left: 20px;
+}
+
+.totalPrice {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  height: 20px;
+  margin-right: 3px;
+  background-color: #ffff;
+  width: 96%;
+  margin-bottom: 15px;
+}
+
+.totalPrice_h2 {
+  font-size: 15px; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+totalPrice_h2:hover{
+  color: #0056b3;
+
+}
+.cpu_h2:hover,
+.cpu_component_text h2:hover,
+.mobo_h2:hover,
+.mobo_component_text h2:hover,
+.gpu_h2:hover,
+.gpu_component_text h2:hover,
+.ram_h2:hover,
+.ram_component_text h2:hover,
+.case_h2:hover,
+.case_component_text h2:hover,
+.storage_h2:hover,
+.storage_component_text h2:hover,
+.psu_h2:hover,
+.psu_component_text h2:hover {
+  color: #c04d4d; /* Change the color on hover */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+.compatible{
+  color: rgb(204, 49, 49);
+  font-size:10px;
+  
+  
+}

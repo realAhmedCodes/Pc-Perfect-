@@ -1,0 +1,81 @@
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+  overflow-y: auto;
+  margin-top: 10%; /* Default margin-top value */
+
+  /* Adjust margin-top based on build selection */
+  transition: margin-top 0.3s ease; /* Add a smooth transition */
+}
+
+.build-selected {
+  margin-top: 14%; /* Adjust this value when "Custom Build" is selected */
+}
+
+/* Style your main container */
+.main_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.main_div2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+    background-color: #f0f0f0;
+}
+
+
+
+label {
+  text-align: center;
+  font-weight: bold; /* Make labels bold for better visibility */
+}
+.num_imp{
+   margin: 5px 0; /* Add margin to all sides of the inputs */
+  padding: 10px;
+  width: 90%;
+ /* Make inputs full-width within the container */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input,
+select {
+  margin: 5px 0; /* Add margin to all sides of the inputs */
+  padding: 10px;
+  width: 100%; /* Make inputs full-width within the container */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form_div {
+  text-align: center;
+  width: 250px;
+}
+
+/* Style your submit button */
+.btn {
+  /* Add styles for the button */
+  display: inline-block; /* Make the button display inline */
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}

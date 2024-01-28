@@ -1,0 +1,66 @@
+/* Updated CSS with margin reset for main_div and search_div */
+.main_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(253, 247, 247);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(2, 2, 2, 0.1);
+  width: 25%;
+  height: 100vh;
+  margin-left: 25%;
+  margin-top: 15%; 
+}
+.bar{
+margin-top: 0%;
+padding-top: 0%;
+}
+
+.form_h2 {
+  font-size: 22px;
+}
+
+.put_div {
+  width: 90%;
+  height: 75vh;
+}
+
+.form_div {
+  margin-top: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main_input {
+  height: 25px;
+  width: 80%;
+  margin-top: 5px;
+}
+
+.main_btn {
+  height: 35px;
+  width: 20%;
+  color: #fff;
+  font-size: 13px;
+  margin-top: 5px;
+  border-radius: 0.5rem;
+  background-color: rgb(12, 12, 54);
+  font-weight: bold;
+  transition: font-size 0.2s ease-in-out; /* Add transition for smoother hover effect */
+}
+
+.main_btn:hover {
+  font-size: 14px;
+}
+
+.search_div {
+  background-color: #fff;
+  width: 80%;
+  margin-top: 0; /* Explicitly set margin-top to 0 */
+  padding-top: 0; /* Explicitly set padding-top to 0 */
+}

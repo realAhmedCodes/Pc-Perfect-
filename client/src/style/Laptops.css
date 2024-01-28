@@ -1,0 +1,168 @@
+/* Laptops.css */
+.Container h2 {
+  padding: 20px;
+ 
+  display: flex;
+  margin-right: 6%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.whole_div{
+  padding: 30px;
+  margin-left: 10%;
+  margin-top: 3%;
+ 
+  
+  
+  
+}
+
+.Grid_div {
+  border-radius: 0.5rem;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 5px #cdc5c5;
+  width: 300px;
+  background-color: #ffff;
+  font-weight: bold;
+
+}
+
+.InfoBtn {
+  background-color: #193c62;
+  margin-left:35%;
+  color: #ffff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.InfoBtn:hover {
+  background-color: #182d57;
+}
+
+/* LaptopDetail.css */
+.ComponentDetailContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.ComponentDetailWrapper {
+  width: fit-content;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.StyledTable {
+  width: 80%;
+  border-collapse: separate;
+  border-spacing: 0px 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: white;
+}
+
+.TableHead {
+  background-color: #193a5e;
+  color: white;
+  padding: 6px 4px;
+  text-align: left;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.TableCell {
+  font-size: 15px;
+  padding: 3px 8px;
+  text-align: left;
+  width: 50%;
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  font-weight: bold;
+}
+
+.TableRow:nth-of-type(odd) {
+  background-color: #f5f5f5;
+}
+
+.CloseButton {
+  border-radius: 0.5rem;
+  background: white;
+  padding: 2px 10px;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  margin-right: 8px;
+  font-size: 14px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.CloseButton:hover {
+  background-color: #cedce8;
+}
+
+/* Apply class names to your components */
+
+/* LaptopSide.css */
+.sortMain {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Set to full viewport height */
+  width: 120px;
+ margin-left: 5px;
+  position: fixed;
+  left: 0;
+  top: 25%;
+}
+
+.sort_div {
+  color: black;
+}
+
+#sort_head {
+  color: black;
+}
+
+.whole_div {
+  padding: 30px;
+  margin-left: 120px; /* Adjust this value to create space for the sidebar */
+  background-color: #cedce8;
+}
+
+.Grid_div {
+  border-radius: 0.5rem;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 5px #cdc5c5;
+  width: 300px;
+  background-color: #ffff;
+  font-weight: bold;
+}
+
+.InfoBtn {
+  background-color: #193c62;
+  color: #ffff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.InfoBtn:hover {
+  background-color: #182d57;
+}

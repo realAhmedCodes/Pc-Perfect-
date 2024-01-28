@@ -1,0 +1,30 @@
+.product_select{
+
+
+margin-top: 59px;
+width: 11%;
+
+height: 92vh;
+/*background-color: #f0f0f0;*/
+ background-color: #fcfcfc;
+
+    
+}
+.select{
+    margin-top: 70%;
+}
+.main_div{
+    display: flex;
+    align-items: flex-start;
+      background-color: #f0f0f0;
+    height: 100vh;
+    
+    
+   
+}
+.compare_divs{
+    margin-left: 10%;
+    margin-top: 8%;
+    width: 65%;
+
+}
